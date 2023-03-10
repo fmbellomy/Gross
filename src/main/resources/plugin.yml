@@ -4,5 +4,5 @@ main: com.quantumgarbage.gross.Gross
 api-version: 1.19
 prefix: gross
 load: STARTUP
-authors: [fmbellomy, oliver_the_crow]
+authors: [ fmbellomy, oliver_the_crow ]
 description: he's just such a gross guy
