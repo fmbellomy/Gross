@@ -1,13 +1,11 @@
 package com.quantumgarbage.gross;
 
 import org.bukkit.plugin.java.JavaPlugin;
-
 public final class Gross extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        getServer().getPluginManager().registerEvents(new EventHandlers(), this);
     }
 
     @Override
