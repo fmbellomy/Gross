@@ -14,8 +14,6 @@ public class EventHandlers implements Listener {
     public void badCrow(PlayerInteractAtEntityEvent e) {
         boolean isCrow = (e.getPlayer().getUniqueId().equals(CROW));
         boolean isBad = (e.getRightClicked().getType().equals(ITEM_FRAME));
-        System.out.println("isCrow:" + isCrow);
-        System.out.println("isBad:" + isBad);
         if (isCrow && isBad) {
             e.setCancelled(true);
             ItemFrame iframe = (ItemFrame) e.getRightClicked();
